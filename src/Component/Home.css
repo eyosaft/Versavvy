@@ -1,0 +1,75 @@
+.home-content { 
+    /* width: 90%;
+    margin: 0 auto;
+    max-width: 1200px; */
+    display: flex;
+    height: 100vh;
+    background-image: url('../Imgs/pexels-artem-beliaikin-4885874.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.intro-container {
+    background-color: #e7600047;
+}
+.intro-container p {
+    margin: 40px;
+    margin-top: 150px;
+    color: #ffffff;
+    font-size: 9vmin;
+    font-weight: 900;
+    width: 500px;
+}
+
+strong {
+    border-bottom: 10px solid #E76000;
+}
+
+.image {
+    margin-top: 120px;
+    width: 710px;
+}
+
+.image-container {
+    margin-left: 20px;
+}
+
+@media screen and (max-width:1000px) {
+
+    .content {
+        width: 100%;
+    }
+
+   .image-container {
+       display: none;
+   } 
+   
+   .intro-container {
+       width: 100%;
+   }
+   
+   .intro-container p  {
+    font-size: 10vmin;
+    font-weight: 900;
+    width: 400px;
+   }
+}
+
+@media screen and (max-width:450px) {
+    .intro-container p  {
+         margin-left: 10px;
+        font-size: 10vmin;
+        font-weight: 900;
+        width: 320px;
+       }
+ }
+
+ @media screen and (max-width:340px) {
+    .intro-container p  {
+        font-size: 10vmin;
+        font-weight: 900;
+        width: 300px;
+       }
+ }
