@@ -21,3 +21,7 @@ The Application Runs on **localhost:3000**
 
 ## Application design
 this is a link to the design https://www.figma.com/file/d2w6PVWo2ZO39bQlcrq3QS/Untitled?node-id=0%3A1
+
+## Demo
+
+A link to the demo - https://versavvy-task.netlify.app/
